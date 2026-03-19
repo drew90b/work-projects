@@ -6,7 +6,7 @@
 
 ## Current Focus
 
-<!-- What is the main reliability initiative or problem being worked on right now? -->
+C3921 compressor — pending follow-up before installation
 
 ---
 
@@ -14,7 +14,7 @@
 
 | Item | Priority | Owner | Status |
 |------|----------|-------|--------|
-| <!-- Item --> | <!-- High/Med/Low --> | <!-- Name --> | <!-- Status --> |
+| C3921 compressor installation | High | <!-- Owner --> | Blocked — follow-up needed |
 
 ---
 
@@ -28,4 +28,4 @@
 
 ## Notes
 
-<!-- Running notes, observations, decisions, follow-ups -->
+**2026-03-18** — C3921 reliability meeting held. More follow-up is needed before installing the compressor.
