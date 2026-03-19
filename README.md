@@ -37,6 +37,19 @@
 
 ---
 
+## GTD System
+
+| List | Purpose |
+|------|---------|
+| [Inbox](projects/gtd/inbox.md) | Capture everything — process later |
+| [Projects List](projects/gtd/projects-list.md) | All active projects with next actions |
+| [Next Actions](projects/gtd/next-actions.md) | What to do now, by context |
+| [Waiting For](projects/gtd/waiting-for.md) | Delegated items & pending responses |
+| [Someday / Maybe](projects/gtd/someday-maybe.md) | Ideas to revisit later |
+| [Weekly Review](projects/gtd/weekly-review.md) | Weekly review checklist & template |
+
+---
+
 ## Quick Links
 
 - [Meetings](meetings/)
