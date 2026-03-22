@@ -1,5 +1,7 @@
 # MS Project Timeline Management
 
+> ⚠️ This project file needs its first real update. Fill in during next review.
+
 **Last Updated:** 2026-03-19
 
 ---
