@@ -2,7 +2,9 @@
 
 ## Vision
 
-A personal work management system where information flows from capture (Telegram, verbal, paper) through processing and into organized, reviewable folders — powered by Claude and accessible from anywhere.
+A personal work management system where information flows from capture (Telegram, verbal,
+paper) through processing and into organized, reviewable folders — powered by Claude and
+accessible from anywhere.
 
 ---
 
@@ -12,6 +14,7 @@ A personal work management system where information flows from capture (Telegram
 
 - Implement folder architecture in the repo
 - Create templates for each document type
+- Establish `meetings/` folder for formal meeting notes
 - Establish morning routine: process inbox → review projects → write maintenance update
 - Document the system in ARCHITECTURE.md and CLAUDE.md
 - Fix Telegram bot timeout issues
@@ -23,6 +26,7 @@ A personal work management system where information flows from capture (Telegram
 - Bot auto-categorizes incoming messages (boss request vs. maintenance vs. admin)
 - Bot creates daily-note file each morning from template
 - Bot prompts for maintenance update and saves to daily-notes
+- Bot routes formal meeting notes to `meetings/` automatically
 - Claude assists with weekly work order checks
 - Explore auto-tagging messages with priority levels
 
