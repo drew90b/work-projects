@@ -38,7 +38,7 @@ GTD-inspired folder structure. The repo is the single source of truth.
 3. If it's administrative → `admin-requests/`
 4. If it's a personnel complaint or coaching need → `personnel/`
 5. If it's a formal meeting record → `meetings/`
-6. If unclear → `inbox/` for manual review
+6. If unclear → append to `inbox/inbox.md` for manual review
 
 ## Daily Note Format
 
@@ -69,7 +69,7 @@ Use prefixes:
 
 ## What Claude Should Do
 
-- When receiving a message via Telegram, save it to `inbox/` with a timestamp
+- When receiving a message via Telegram, append it to `inbox/inbox.md` with a timestamp and brief description
 - During morning processing, help categorize and route inbox items
 - Help draft the daily maintenance update
 - Remind about weekly checklist items on the appropriate days
@@ -87,5 +87,4 @@ Use prefixes:
 
 ## Notes on Legacy Files
 
-- `FOLDER_STRUCTURE.md` — planning document from before the folder migration. The
-  live folder structure in this repo is now the authoritative reference.
+- `archive/FOLDER_STRUCTURE.md` — planning document from before the folder migration, moved to archive. The live folder structure in this repo is the authoritative reference.

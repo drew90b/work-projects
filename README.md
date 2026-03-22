@@ -6,11 +6,11 @@
 
 ## This Week's Top Priorities
 
-1. <!-- Priority 1 -->
-2. <!-- Priority 2 -->
-3. <!-- Priority 3 -->
-4. <!-- Priority 4 -->
-5. <!-- Priority 5 -->
+1. CH-167 crane — coordinate manpower for sheave cable work (material handler called out 2026-03-19)
+2. H-3001 — complete heater outlet, TIs, insulation, ELL, and hydro reinstall
+3. C3921 compressor — resolve all follow-up blockers before installation can proceed
+4. LVT outage — verify night and day resources were set up (due EOD 2026-03-19, confirm status)
+5. T-2003 — confirm last two spools and scaffold breakdown completed (scheduled 2026-03-20)
 
 ---
 
@@ -28,15 +28,15 @@
 
 ### Reliability Engineering
 
-> <!-- One-line status -->
+> 14 active items — H-3001 outage in progress, CH-167 sheave manpower priority, T-2003 spool work, LVT pre-outage setup, C3921 blocked pending follow-up (as of 2026-03-19)
 
 ### MS Project Management
 
-> <!-- One-line status -->
+> ⚠️ No content yet — needs first review
 
 ### RTO Dealership Business
 
-> <!-- One-line status -->
+> ⚠️ No content yet — needs first review
 
 ---
 
