@@ -1,6 +1,6 @@
 # Equipment Reliability — Refinery
 
-**Last Updated:** 2026-03-19
+**Last Updated:** 2026-03-22
 
 ---
 
@@ -11,6 +11,7 @@
 - H-3001 outage — in progress, heater outlet and hydro remaining
 - T-2003 — spool and valve work underway, last two spools tomorrow
 - LVT outage — pre-outage, resource setup due EOD 2026-03-19
+- H-18 — blinding for entry started 2026-03-22; scaffold inside heater for inspection scheduled 2026-03-23
 
 ---
 
@@ -32,6 +33,8 @@
 | T-2003: Install 2" spool to regulator and valves | High | <!-- Owner --> | In Progress |
 | T-2003: Break down scaffolding and install last two spools | Medium | <!-- Owner --> | Scheduled 2026-03-20 |
 | LVT: Set up night and day resources | High | <!-- Owner --> | Due EOD 2026-03-19 |
+| H-18: Blinding for entry | High | <!-- Owner --> | In Progress — started 2026-03-22 |
+| H-18: Scaffold inside heater for inspection | High | <!-- Owner --> | Scheduled 2026-03-23 |
 
 ---
 
@@ -46,6 +49,8 @@
 ## Notes
 
 **2026-03-18** — C3921 reliability meeting held. More follow-up is needed before installing the compressor.
+
+**2026-03-22** — H-18: Blinding for entry started today. Scaffold inside heater for inspection scheduled for tomorrow (2026-03-23).
 
 **2026-03-19 AM** — Morning outage update meeting. H-3001: night shift completed drain line, resid spools, filter changes; hydro running this AM; heater outlet, TIs, insulation, ELL remaining. CH-167 sheave cable jumped — material handler called out, manpower priority flagged. T-2003: spool/valve work today, scaffolding breakdown and last two spools tomorrow. LVT: pre-outage resource setup due EOD.
 
