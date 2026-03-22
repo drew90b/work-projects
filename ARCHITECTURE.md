@@ -19,25 +19,30 @@
 ## Components
 
 ### Telegram Bot (ccbot)
+
 - **Role:** Primary input interface. Receives messages, commands, and requests.
 - **Host:** DigitalOcean Droplet
 - **Known issue:** Occasional timeouts under load or long-running operations
 - **Future:** Auto-categorize messages and route to correct repo folders
 
 ### DigitalOcean Droplet
+
 - **Role:** Server hosting the bot and Claude Code
 - **Services running:** ccbot process, Claude Code agent
 - **Repo sync:** Claude Code pushes work comments and updates to GitHub
 
 ### Claude Code
+
 - **Role:** AI assistant running inside the architecture
 - **Current function:** Updates the GitHub repo with work comments
-- **Future function:** Process inbox, generate daily notes, assist with weekly checks, suggest next actions
+- **Future function:** Process inbox, generate daily notes, assist with weekly checks,
+  suggest next actions
 
 ### GitHub Repository (work-projects)
+
 - **Role:** Single source of truth for all work information
 - **Branch:** main
-- **Structure:** See FOLDER_STRUCTURE.md or the repo directory layout
+- **Structure:** See CLAUDE.md or the repo directory layout
 - **Access:** Private repo, updated by Claude Code and manual edits
 
 ## Information Flow
@@ -53,20 +58,22 @@ Operator updates ───┤         (process & route)      ├─ projects/
                     │                                 ├─ boss-requests/
 Maintenance calls ──┤                                 ├─ maintenance-requests/
                     │                                 ├─ admin-requests/
-Personnel issues ───┘                                 ├─ personnel/
-                                                      └─ daily-notes/
+Personnel issues ───┤                                 ├─ personnel/
+                    │                                 ├─ meetings/
+Formal meetings ────┘                                 └─ daily-notes/
 ```
 
 ## Request Types & Routing
 
-| Request Type         | Source              | Routed To               | Priority |
-|---------------------|---------------------|-------------------------|----------|
-| Boss directive       | Boss (any channel)  | boss-requests/          | High     |
-| Maintenance request  | Operators, field    | maintenance-requests/   | Varies   |
-| Admin/message update | Various             | admin-requests/         | Normal   |
-| Personnel/coaching   | Complaints, observe | personnel/              | Sensitive|
-| Project work         | Self-initiated      | projects/               | Planned  |
-| Daily maintenance    | Morning routine     | daily-notes/            | Daily    |
+| Request Type         | Source              | Routed To               | Priority  |
+|---------------------|---------------------|-------------------------|-----------|
+| Boss directive       | Boss (any channel)  | boss-requests/          | High      |
+| Maintenance request  | Operators, field    | maintenance-requests/   | Varies    |
+| Admin/message update | Various             | admin-requests/         | Normal    |
+| Personnel/coaching   | Complaints, observe | personnel/              | Sensitive |
+| Project work         | Self-initiated      | projects/               | Planned   |
+| Daily maintenance    | Morning routine     | daily-notes/            | Daily     |
+| Formal meeting notes | On-site, calls      | meetings/               | Reference |
 
 ## Database (Future)
 
@@ -88,4 +95,5 @@ but gain the ability to ask "show me everything open from the boss" programmatic
 
 - Personnel files contain sensitive information — keep repo private
 - Coaching/discipline records should follow your organization's documentation standards
-- Consider whether personnel records belong in this repo or a separate, more restricted location
+- Consider whether personnel records belong in this repo or a separate, more restricted
+  location

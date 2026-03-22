@@ -1,5 +1,9 @@
 # Personnel Record — {{EMPLOYEE NAME}}
 
+> **CONFIDENTIALITY NOTICE:** This document contains sensitive personnel information.
+> Do not share via Telegram, email, or any unsecured channel. Store in the `personnel/`
+> folder only. Access restricted to direct supervisor and HR as applicable.
+
 **Date:** {{DATE}}
 **Type:** Coaching | Verbal Counseling | Written Warning | Other
 **Supervisor:** {{YOUR NAME}}
